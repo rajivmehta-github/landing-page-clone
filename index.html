@@ -97,8 +97,8 @@
     </header>
     <main class="mx-4">
         <article class="grid grid-cols-12 gap-4 mt-10">
-            <section class="col-span-6 pr-20">
-                <h1 class="text-5xl font-bold">
+            <section class="col-span-12 lg:col-span-6 pr-0 lg:pr-20">
+                <h1 class="text-3xl lg:text-5xl font-bold">
                     Slack is where the future works
                 </h1>
                 <p class="mt-4 text-base tracking-wide">
@@ -106,7 +106,7 @@
                     everyone and everything you need to get stuff
                     done.
                 </p>
-                <p class="cta-buttons mt-4 space-x-1">
+                <p class="cta-buttons mt-4 space-x-1 space-y-1">
                     <button class="bg-[#581959] hover:bg-[#581959] text-white font-bold py-3 px-6 border border-[#581959] rounded uppercase cursor-pointer">
                         Try For Free
                     </button>
@@ -118,7 +118,7 @@
                     </button>
                 </p>
             </section>
-            <section class="col-span-6">
+            <section class="col-span-12 sm:col-span-6">
 
             </section>
             <section class="col-span-12 my-10">
@@ -147,10 +147,10 @@
                     </li>
                 </ul>
             </section>
-            <section class="col-span-6 pr-16">
+            <section class="col-span-12 sm:col-span-6 pr-16">
                 <img src="images/ytb-poster.png" alt="">
             </section>
-            <section class="col-span-6 space-y-4">
+            <section class="col-span-12 sm:col-span-6 space-y-4">
                 <h2>
                     Now is your moment to build a better tomorrow
                 </h2>
@@ -165,6 +165,41 @@
             </section>
         </article>
     </main>
-    
+    <aside class="z-20 bg-white p-4 pb-8 w-4/5 md:w-2/3 lg:w-1/5 tex-xs fixed right-4 bottom-4 shadow-xl shadow-gray-500 rounded">
+            <p class="flex justify-end font-bold">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-4">
+                    <path fill-rule="evenodd" d="M5.47 5.47a.75.75 0 0 1 1.06 0L12 10.94l5.47-5.47a.75.75 0 1 1 1.06 1.06L13.06 12l5.47 5.47a.75.75 0 1 1-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 0 1-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
+                  </svg>              
+            </p>
+            <p class="text-xs leading-normal mt-1">
+                This website uses cookies to enhance user experience and to analyze performance and traffic on our website. We also 
+                share information of your use of our site with our social media, advertising and analytics partners. <a href="#" class="text-blue-500 underline cursor-pointer hover:text-blue-800">More Info</a>
+            </p>
+            <p class="mt-4 mb-1 text-sm">
+                <button class="bg-[#581959] hover:bg-[#581959] text-white font-bold w-full py-2 px-4 border border-[#581959] rounded uppercase cursor-pointer">
+                    Accept All Cookies
+                </button>
+            </p>
+            <p class="text-sm">
+                <button class="bg-transparent hover:bg-[#581959] text-[#581959] font-semibold hover:text-white w-full py-2 px-4 border border-[#581959] hover:border-transparent rounded uppercase cursor-pointer">
+                    Cancel
+                </button>
+            </p>
+    </aside>
+    <div class="fixed z-[24] right-5 bottom-6 w-1/5 text-xs rounded">
+        <p class="flex">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 text-gray-400 inline-block shadow-xl shadow-gray-500">
+                <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25Zm-1.72 6.97a.75.75 0 1 0-1.06 1.06L10.94 12l-1.72 1.72a.75.75 0 1 0 1.06 1.06L12 13.06l1.72 1.72a.75.75 0 1 0 1.06-1.06L13.06 12l1.72-1.72a.75.75 0 1 0-1.06-1.06L12 10.94l-1.72-1.72Z" clip-rule="evenodd" />
+              </svg>
+              <span class="bg-white rounded p-2 mr-2 inline-block w-48 shadow-xl shadow-gray-500">
+                Hey there 
+                <img src="images/hand-waving.png" alt="" class="w-4 inline-block">
+                 want to know something cool ?
+              </span>
+              <span class="p-2 bg-[#581959] rounded inline-block w-10 h-10 self-center shadow-xl shadow-gray-500">
+                <img src="images/hand-waving.png" alt="" class="inline-block">
+              </span>
+        </p>
+    </div>
   </body>
 </html>
